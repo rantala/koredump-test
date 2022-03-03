@@ -35,7 +35,7 @@ jobs:
         uses: helm/chart-releaser-action@v1.3.0
         env:
           CR_RELEASE_NAME_TEMPLATE: "{{ .Version }}"
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          CR_TOKEN: "${{ secrets.MY_TOKEN }}"
 
   image:
     needs: release
