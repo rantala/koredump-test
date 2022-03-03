@@ -7,7 +7,7 @@ if [ "$1" = "-x" ]; then
 	set -x
 	shift
 fi
-if ! type curl &>/dev/null; then echo
+if ! type curl &>/dev/null; then
 	echo "Error: missing curl" >&2
 	exit 1
 fi
