@@ -2,6 +2,22 @@ apiVersion: v1
 entries:
   koredump:
   - apiVersion: v2
+    appVersion: 0.3.8
+    created: "2022-03-03T06:32:11.969561035Z"
+    description: Coredump REST API
+    digest: c63c3c5a2d1f03abb460dbdc95a56eff607f3b6bc0f510f0e3c3232a7287d71f
+    home: https://github.com/nokia/koredump
+    icon: https://www.nokia.com/sites/default/files/styles/scale_1920_no_crop/public/media/nokia_white_logo.png
+    maintainers:
+    - email: tommi.t.rantala@nokia.com
+      name: rantala
+      url: https://github.com/rantala/
+    name: koredump
+    type: application
+    urls:
+    - https://github.com/rantala/koredump-test/releases/download/0.3.8/koredump-0.3.8.tgz
+    version: 0.3.8
+  - apiVersion: v2
     appVersion: 0.3.7
     created: "2022-03-03T06:24:25.6789146Z"
     description: Coredump REST API
@@ -17,4 +33,4 @@ entries:
     urls:
     - https://github.com/rantala/koredump-test/releases/download/0.3.7/koredump-0.3.7.tgz
     version: 0.3.7
-generated: "2022-03-03T06:24:25.6789205Z"
+generated: "2022-03-03T06:32:11.969572035Z"
