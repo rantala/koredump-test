@@ -29,7 +29,6 @@ Dockerfile*
 helm_package
 index.yaml*
 koredumpctl
-koredump.spec
 koredump-*.tar.gz
 koredump-*.tgz
 koremonitor.py
