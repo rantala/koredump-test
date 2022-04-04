@@ -1,6 +1,8 @@
-flask
+Flask
+Flask-HTTPAuth
 kubernetes
 pyinotify
 pyxattr
 PyYAML
+requests
 systemd-python
